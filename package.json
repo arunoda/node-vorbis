@@ -9,7 +9,7 @@
     "decode",
     "stream"
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
@@ -19,11 +19,11 @@
   "dependencies": {
     "bindings": "*",
     "debug": "*",
-    "ogg": "https://github.com/arunoda/node-ogg/archive/master.tar.gz",
-    "readable-stream": "0.1.x"
+    "readable-stream": "1.0.x"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "ogg": "https://github.com/arunoda/node-ogg/archive/dev.tar.gz"
   },
   "scripts": {
     "test": "mocha --reporter spec"
